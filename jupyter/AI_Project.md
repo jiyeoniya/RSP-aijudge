@@ -394,6 +394,7 @@ from IPython.display import Image, display
 for image_path in glob.glob('/content/runs/detect/predict/*.jpg'):
   display(Image(filename=image_path, height=600))
   print("\n")
+
 ```
 <div style="text-align: center;">
     <img src="r.png" alt="图片描述">
@@ -425,7 +426,7 @@ python run play.py
 
 <div style="text-align: center;">
     <video width="720" height="600" controls>
-        <source src="猜拳27倍速.mp4" type="video/mp4">
+        <source src="RSPx6.mp4" type="video/mp4">
     </video>
 </div>
 
